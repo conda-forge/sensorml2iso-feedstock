@@ -1,0 +1,27 @@
+From 7538b38dcea2681022141e879b0003a4a7742f9a Mon Sep 17 00:00:00 2001
+From: ocefpaf <ocefpaf@gmail.com>
+Date: Wed, 19 Apr 2017 18:22:46 -0300
+Subject: [PATCH] pkg templates
+
+---
+ setup.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/setup.py b/setup.py
+index 30473dd..972a52a 100644
+--- a/setup.py
++++ b/setup.py
+@@ -30,8 +30,8 @@ kwargs = {
+     ],
+     "packages": ["sensorml2iso"],
+     "package_data": {
+-        "templates": [
+-            "*.xml"
++        "sensorml2iso": [
++            "templates/*.xml"
+         ]
+     },
+     "version": "1.0.2",
+-- 
+2.1.4
+
