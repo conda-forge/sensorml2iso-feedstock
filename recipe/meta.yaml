@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: sensorml2iso
@@ -6,12 +6,10 @@ package:
 
 source:
   url: https://github.com/ioos/sensorml2iso/archive/v{{ version }}.tar.gz
-  sha256: 7ca52c28264ef462747c32432f6023a1857ae882d687424994394700b40b7482
-  patches:
-    - template.patch
+  sha256: c3b61dcf33aec9bf474ab7a9e94dc0e9f718dd03d5466ea11d6ec22aacc73c48
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
