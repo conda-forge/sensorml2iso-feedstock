@@ -1,4 +1,4 @@
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: sensorml2iso
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/ioos/sensorml2iso/archive/v{{ version }}.tar.gz
-  sha256: c3b61dcf33aec9bf474ab7a9e94dc0e9f718dd03d5466ea11d6ec22aacc73c48
+  sha256: f4e10e4e82b5b40368ce2cacb3683e1abbb53c01ab2f7d16e4add31d380298ec
 
 build:
   number: 0
