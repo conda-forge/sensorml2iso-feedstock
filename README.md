@@ -14,12 +14,15 @@ Summary: Query an IOOS SOS service for active sensors and output ISO 19115-2-com
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/sensorml2iso-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sensorml2iso-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sensorml2iso-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sensorml2iso-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sensorml2iso/badges/version.svg)](https://anaconda.org/conda-forge/sensorml2iso)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sensorml2iso/badges/downloads.svg)](https://anaconda.org/conda-forge/sensorml2iso)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sensorml2iso-green.svg)](https://anaconda.org/conda-forge/sensorml2iso) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sensorml2iso.svg)](https://anaconda.org/conda-forge/sensorml2iso) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sensorml2iso.svg)](https://anaconda.org/conda-forge/sensorml2iso) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sensorml2iso.svg)](https://anaconda.org/conda-forge/sensorml2iso) |
 
 Installing sensorml2iso
 =======================
