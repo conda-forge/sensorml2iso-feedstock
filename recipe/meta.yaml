@@ -9,18 +9,18 @@ source:
   sha256: 69d8dcb97563b3c8d5e63b25ba220aef36f49a2f73698081a5e77b6d4210f3ec
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - sensorml2iso = sensorml2iso.command_line:main
 
 requirements:
-  build:
-    - python
+  host:
+    - python {{ python_min }}
     - pip
   run:
-    - python
+    - python >={{ python_min }}
     - owslib
     - geopandas
     - jinja2
@@ -31,6 +31,8 @@ requirements:
     - shapely
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - sensorml2iso
   commands:
